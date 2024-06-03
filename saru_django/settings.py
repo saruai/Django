@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'FirstApp',
+    'FirstApp.apps.FirstappConfig',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql', #Stage 7: Modify the created DB
         'NAME': 'EHR_project', #DB name
         'USER': 'postgres',
-        'PASSWORD': 'Prisha@13', #this will not be pushed in prod envi. This is only in Dev Envi. 
+        'PASSWORD': '08061990', #this will not be pushed in prod envi. This is only in Dev Envi. 
         'HOST':'localhost',
         'PORT':'5432',
     }
